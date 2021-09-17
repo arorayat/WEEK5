@@ -1,0 +1,31 @@
+body{
+background-color:#FFDAB9;
+}
+
+button {
+  background-color: crimson;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+
+h2{
+color:blue;
+}
+
+p{
+font-size:23px;
+}
+
+#class3 input[type="text"]
+{
+    border: 2px solid black;
+    
+    background: transparent;
+    height: 40px;
+    color: red;
+    font-size: 16px;
+}

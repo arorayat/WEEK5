@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>Task 5</title>
+  <script src=
+"https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js">
+  </script>
+<link rel="stylesheet" href="t5css.css">
+</head>
+
+<body>
+<div id="class1">
+  <button v-on:click="greet">Hey! Click Me </button>
+</div>
+<hr>
+<div id="class2">
+  <ol>
+<h2>Recipe of Cake </h2>
+    <li v-for="todo in todos">
+      {{ todo.text }}
+    </li>
+  </ol>
+</div>
+<hr>
+<h2>Form User</h2>
+<form id="class3">
+<p>Enter Name:
+    <input type="text" v-model="name">
+  </p>
+<p>Enter Email:
+    <input type="text" v-model="email">
+  </p>
+<p>Enter Contact:
+    <input type="text" v-model="email">
+  </p>
+<button onclick="myFunction()">Sumit</button>
+   </form>
+
+
+<script src="t5js.js"></script>
+</body>
+</html>
